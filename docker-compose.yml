@@ -1,0 +1,7 @@
+services:
+  ipspoofing:
+    build: .
+    init: true
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
