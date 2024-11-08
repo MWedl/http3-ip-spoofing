@@ -36,3 +36,10 @@ In HTTP/3 deployments, reverse proxies often terminate HTTP/3 and forward reques
 * Delay processing HTTP/3 requests until the handshake is completed
 * HTTP status code 425 Too Early
 
+
+## Security Advisories
+* Traefik: [CVE-2024-39321](https://www.cve.org/CVERecord?id=CVE-2024-39321), [GHSA-gxrv-wf35-62w9](https://github.com/traefik/traefik/security/advisories/GHSA-gxrv-wf35-62w9)
+* H2O: [CVE-2024-45397](https://www.cve.org/CVERecord?id=CVE-2024-45397), [GHSA-jf2c-xjcp-wg4c](https://github.com/h2o/h2o/security/advisories/GHSA-jf2c-xjcp-wg4c)
+* HAProxy: [CVE-2024-49214](https://www.cve.org/CVERecord?id=CVE-2024-49214)
+* Caddy: [bugfix](https://github.com/caddyserver/caddy/pull/6427)
+
